@@ -1,34 +1,18 @@
 {
 	"info": {
-		"_postman_id": "9d5e1c26-a3de-4f64-8169-37c41feb4297",
-		"name": "Group_31",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"_postman_id": "a299ed07-0c87-4fc7-a982-f0e80669a261",
+		"name": "HW_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27645755"
 	},
 	"item": [
-		{
-			"name": "New Request",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{url}}/",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						""
-					]
-				}
-			},
-			"response": []
-		},
 		{
 			"name": "EP_1",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/get_method?name=Irina&age=26",
+					"raw": "{{url}}/get_method?name=Irina&age=28",
 					"host": [
 						"{{url}}"
 					],
@@ -42,7 +26,7 @@
 						},
 						{
 							"key": "age",
-							"value": "26"
+							"value": "28"
 						}
 					]
 				}
@@ -60,17 +44,17 @@
 						{
 							"key": "name",
 							"value": "Irina",
-							"type": "default"
+							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "26",
-							"type": "default"
+							"value": "28",
+							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "1000",
-							"type": "default"
+							"value": "1200",
+							"type": "text"
 						}
 					]
 				},
@@ -88,11 +72,18 @@
 		},
 		{
 			"name": "EP_3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
 				"url": {
-					"raw": "{{url}}/object_info_1?name=Irina&age=26&weight=50",
+					"raw": "{{url}}/object_info_1?name=Irina&age=28&weight=54",
 					"host": [
 						"{{url}}"
 					],
@@ -106,11 +97,11 @@
 						},
 						{
 							"key": "age",
-							"value": "26"
+							"value": "28"
 						},
 						{
 							"key": "weight",
-							"value": "50"
+							"value": "54"
 						}
 					]
 				}
@@ -119,11 +110,18 @@
 		},
 		{
 			"name": "EP_4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
 				"url": {
-					"raw": "{{url}}/object_info_2?name=Irina&age=26&salary=1000",
+					"raw": "{{url}}/object_info_2?name=Irina&age=28&salary=1200",
 					"host": [
 						"{{url}}"
 					],
@@ -137,11 +135,11 @@
 						},
 						{
 							"key": "age",
-							"value": "26"
+							"value": "28"
 						},
 						{
 							"key": "salary",
-							"value": "1000"
+							"value": "1200"
 						}
 					]
 				}
@@ -150,11 +148,18 @@
 		},
 		{
 			"name": "EP_5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
 				"url": {
-					"raw": "{{url}}/object_info_3?name=Irina&age=26&salary=1000",
+					"raw": "{{url}}/object_info_3?name=Irina&age=28&salary=1200",
 					"host": [
 						"{{url}}"
 					],
@@ -168,11 +173,11 @@
 						},
 						{
 							"key": "age",
-							"value": "26"
+							"value": "28"
 						},
 						{
 							"key": "salary",
-							"value": "1000"
+							"value": "1200"
 						}
 					]
 				}
@@ -181,11 +186,18 @@
 		},
 		{
 			"name": "EP_6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
 				"url": {
-					"raw": "{{url}}/object_info_4?name=Irina&age=26&salary=1000",
+					"raw": "{{url}}/object_info_4?name=Irina&age=28&salary=1200",
 					"host": [
 						"{{url}}"
 					],
@@ -199,11 +211,11 @@
 						},
 						{
 							"key": "age",
-							"value": "26"
+							"value": "28"
 						},
 						{
 							"key": "salary",
-							"value": "1000"
+							"value": "1200"
 						}
 					]
 				}
@@ -221,85 +233,25 @@
 						{
 							"key": "name",
 							"value": "Irina",
-							"type": "default"
+							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "26",
-							"type": "default"
+							"value": "28",
+							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "1000",
-							"type": "default"
+							"value": "1200",
+							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2",
-					"protocol": "http",
+					"raw": "{{url}}/user_info_2",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
-					"path": [
-						"user_info_2"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "object_info_2*",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "name",
-							"value": "Irina",
-							"type": "default"
-						},
-						{
-							"key": "age",
-							"value": "26",
-							"type": "default"
-						},
-						{
-							"key": "salary",
-							"value": "1000",
-							"type": "default"
-						}
-					]
-				},
-				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
 					"path": [
 						"user_info_2"
 					]
